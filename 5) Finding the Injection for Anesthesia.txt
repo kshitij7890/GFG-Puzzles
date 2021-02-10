@@ -1,0 +1,35 @@
+Ques :
+
+In a Medical Laboratory, you have 240 Injections, one of which is for Anesthesia for a rat. 
+After injecting, one rat fainted exactly in 24 hours. You have 5 rats whom you are willing 
+to sacrifice in order to determine which injections contains the Anesthesia. 
+How do you achieve this in 48 hours ?
+
+Solution :
+
+Let us number the Injections with 5 digit numbers consisting of 0, 1 and 2. 
+Let us number the Rats as 1, 10, 100, 1000, 10000.
+
+Number 0 on a Injections represents the Anesthesia will not be inject to rat.
+Number 1 on a Injections represents the Anesthesia will be injected to rat on 1st day.
+Number 2 on a Injections represents the Anesthesia will be injected to rat on 2nd day (after 24 hours).
+
+The action corresponding to the digit in the unit place will be executed by rat numbered 1.
+The action corresponding to the digit in the tenth place will be executed by rat numbered 10.
+The action corresponding to the digit in the 100th place will be executed by rat numbered 100.
+The action corresponding to the digit in the 1000th place will be executed by rat numbered 1000.
+The action corresponding to the digit in the 10000th place will be executed by rat numbered 10000.
+
+Example: 
+
+Let us say the Injection is numbered 11201. 
+The Injections is injected on the first day to rat numbered 10000, 1000 and 1. 
+It is injected on the second day to rat numbered 100. And it is not injected to rat numbered 10.
+
+So if the rat numbered 10000, 1000 and 1 faints within first 24 hours, rat numbered 100 faints 
+in the next 24 hours and the rat numbered 10 does not faint, then the Anesthesia Injection has to be 11201.
+
+This way total number possible is,
+
+= 3 * 3 * 3 * 3 * 3 = 3^5 = 243 Injections 
+So with the help of 5 rats and within 48 hours we will be able to find a Anesthesia Injection among 243 Injections.
