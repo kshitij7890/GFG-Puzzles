@@ -1,0 +1,19 @@
+Puzzle: 
+
+A man has a medical condition that requires him to take two kinds of pills, call them A and B. 
+The man must take exactly one A pill and exactly one B pill each day, or he will die. 
+The pills are taken by first dissolving them in water.
+
+The man has a jar of A pills and a jar of B pills. 
+One day, as he is about to take his pills, he takes out one A pill from the A jar and puts it in a glass of water. 
+Then he accidentally takes out two B pills from the B jar and puts them in the water. 
+Now, he is in the situation of having a glass of water with three dissolved pills, one A pill and two B pills. 
+Unfortunately, the pills are very expensive, so the thought of throwing out the water with the 3 pills and starting 
+over is out of the question. 
+
+How should the man proceed in order to get the right quantity of A and B while not wasting any pills?
+
+Solution :
+
+Step 1: Add one more A pill to the glass and let it dissolve.
+Step 2: Take half of the water today and half tomorrow.
