@@ -1,0 +1,27 @@
+Puzzle :
+
+A dealer has 1000 coins and 10 bags. 
+He has to divide the coins over the ten bags so that he can make any number of coins simply by handing over a few bags. 
+How must divide his money into the ten bags?
+ 
+Solution:
+
+We can fill coins in the 10 bags in increasing order of 2^n where n varies from 0 – 8, 
+filling the last bag with all remaining coins as follows:
+
+1 = 2^0 = 1
+2 = 2^1 = 2
+3 = 2^2 = 4
+4 = 2^3 = 8
+5 = 2^4 = 16
+6 = 2^5 = 32
+7 = 2^6 = 64
+8 = 2^7 = 128
+9 = 2^8 = 256
+10 = remaining coins = 489
+
+Now, the dealer can make any number of coins just by handing over the bags.
+as,
+number 0f coins needed = some bag 1 + some bag 2 + ….. + some bag n
+example:
+519 coins = bag 2 + bag 4 + bag 8 + bag 16 + bag 489
