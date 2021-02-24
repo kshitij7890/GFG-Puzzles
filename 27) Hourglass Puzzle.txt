@@ -1,0 +1,19 @@
+Puzzle: 
+
+Given two hourglass of 4 minutes and 7 minutes, the task is to measure 9 minutes.
+
+
+Solution:
+
+At 0 minutes: Start both hourglasses at the same time.
+
+At 4 minutes: 4 minutes hourglass runs out and flip it. 7 minutes hourglass is left with 3 minutes.
+
+At 7 minutes: 4 minutes hourglass is left with 1 minute. 7 minutes hourglass runs out and flip it.
+
+At 8 minutes: 4 minutes hourglass runs out and 7 is filled with 6 minutes and 1 minute on the other side. 
+              Flip it as the sand is left with 1 minute.
+
+At 9 minutes: 7 minutes hourglass becomes empty from above side.
+
+Hence we measured 9 minutes.

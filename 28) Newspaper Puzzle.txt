@@ -1,0 +1,15 @@
+Question : 
+
+A newspaper made of 16 large sheets of paper folded in half. The newspaper has 64 pages altogether. 
+The first sheet contains pages 1, 2, 63, 64.
+If we pick up a sheet containing page number 45. What are the other pages that this sheet contains?
+
+Answer :
+
+On the back of 45, it is 46. The pages are such that for each page p, 65-p will be also on the same page.
+
+Then,
+65-45 = 20
+65-46 = 19
+
+So the four pages in this sheet are 19, 20, 45, 46.
