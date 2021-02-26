@@ -1,0 +1,3 @@
+Question: How to make 4 equilateral triangles with 6 identical match sticks? 
+  
+Answer: Make a tetrahedron. 
