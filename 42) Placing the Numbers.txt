@@ -1,0 +1,28 @@
+Puzzle :
+
+Place the numbers 1, 2, 3, 4, 5, 6, 7, 8 into the eight circles in figure given below, 
+in such a way that no number is adjacent to a number that is next to it in the sequence.
+
+For example 1 should not be adjacent to 2 but can be adjacent to 3, 4, 5, 6, 7, 8. 
+Similarly for others.
+
+Checkout figure at https://www.geeksforgeeks.org/puzzle-42-placing-the-numbers/
+
+Answer :
+
+Trivial Solution:
+Trying for 8!=40320 combination would be tedious task.
+ 
+Smart Solution:
+ 
+The easiest numbers to place are 1 and 8, because each has only one number to which it cannot be adjacent, 
+namely, 2 and 7, respectively. ​The hardest circles to fill are those in the middle, as each is adjacent to 
+six others.This suggests that we place 1 and 8 in the middle circles. If we place 1 to the left of 8, then 
+the only possible positions for 2 and 7 are shown figure below:
+
+Checkout figure at https://www.geeksforgeeks.org/puzzle-42-placing-the-numbers/
+​
+The number 3 must now be placed on the left-hand side of the diagram, and 6 must be placed on the right-hand side.
+Now it is easy to place all the remaining number as shown in figure below:
+
+Checkout figure at https://www.geeksforgeeks.org/puzzle-42-placing-the-numbers/

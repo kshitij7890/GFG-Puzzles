@@ -1,0 +1,18 @@
+Puzzle :
+
+We are given an excel sheet which contains integers from 1 to 50, including both. 
+However, the numbers are in a jumbled form and there is 1 integer missing. 
+You have to write a code to identify the missing integer. 
+Only the logic is required.
+
+
+Solution:
+
+We know that the sum of all the numbers from 1 to n is (n*(n+1)/2)
+Therefore, sum of all the numbers from 1 to 50 is
+
+50*(50+1)/2  (Here, n = 50) 
+  = 50*(51)/2 
+  = 25*51
+  = 1275.
+Therefore, all we need to do is to sum all the integers present in the file and subtract the sum from 1275. The difference between 1275 and this sum would give us the missing integer.

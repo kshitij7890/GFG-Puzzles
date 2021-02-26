@@ -1,0 +1,22 @@
+Question: 
+
+100 coins are lying flat on a table. 10 of them are heads up and 90 are tails up.
+You can’t see which one is which.
+How can we split the coins into two piles such that there are same number of heads up in each pile?
+
+Note: It is allowed to flip the coins of one pile once.
+  
+Answer: Make 2 piles with 10 coins and 90 coins each. Now, flip all the coins in the smaller pile. 
+  
+Explanation : 
+
+Let’s consider a case 
+Pile 1: 88T, 2H 
+Pile 2: 2T, 8H 
+  
+Flipping the coins in Pile 2 
+  
+Pile 1: 88T, 2H 
+Pile 2: 2H, 8T 
+  
+Pile 1(heads) = Pile 2(heads) 
