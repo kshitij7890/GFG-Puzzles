@@ -1,13 +1,10 @@
 Problem: 
 
-Three cars, an Alto, a Zen and a Nano were stolen. 
-There are 3 suspects (Arun, Kartik and Varun). 
+Three cars, an Alto, a Zen and a Nano were stolen. There are 3 suspects (Arun, Kartik and Varun). 
 Each stole 1 vehicle. Here is what they say:
 
 Arun: Varun stole the Alto
-
 Kartik: Varun stole the Zen
-
 Varun: I stole neither the Alto nor the Zen
 
 Later on, the police find that the suspect who stole the Alto told the truth. 
