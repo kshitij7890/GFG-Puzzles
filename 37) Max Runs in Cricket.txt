@@ -24,8 +24,8 @@ From Over 1 to 49:
 4th ball:- 6 runs(hit six)
 5th ball:- 6 runs(hit six)
 6th ball:- 3 runs(took 3 runs between the wickets and take back the strike)
-= >49*(6*5+3)
+=> 49*(6*5+3)
 
 50th Over:
 Hit six sixes in a row.
-= >6*6
+=> 6*6
