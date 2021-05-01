@@ -1,0 +1,20 @@
+Puzzle :
+There are three boxes box1, box2 and box3 containing gold, silver and  mixture of silver and gold respectively.
+
+Each of the three boxes contain a label on them describing the contents.
+Mr. Hurricane comes and mess up all labels. Now each box is labeled with the name which it exactly 
+doesn’t contain. You are given only one chance to open a box and you should guess all the remaining 
+two box contents correctly. Which box will you choose to open keeping in mind that all the three 
+boxes are labeled wrong?
+
+(There is a chance of the mixed box having all the gold coins towards the bottom and 
+silver filled on the top(or vice versa) to deceive that it is a silver box.
+
+
+Solution:
+Choose the box labeled as mixed.
+
+Explanation:
+If the box labeled as mixed is chosen and opened, it can contain gold or silver, cannot contain 
+both because the label written is exactly opposite. Say,  If the box contains gold, then two boxes 
+will now left to be guessed. Obviously the box labeled as silver contains  mixed.
