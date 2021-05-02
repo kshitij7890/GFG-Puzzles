@@ -8,7 +8,7 @@ two box contents correctly. Which box will you choose to open keeping in mind th
 boxes are labeled wrong?
 
 (There is a chance of the mixed box having all the gold coins towards the bottom and 
-silver filled on the top(or vice versa) to deceive that it is a silver box.
+silver filled on the top(or vice versa) to deceive that it is a silver box )
 
 
 Solution:
