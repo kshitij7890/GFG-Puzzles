@@ -14,6 +14,7 @@ Solution :
 
 We know that the suspect who stole the Alto told the truth. 
 However, both Arun and Varun claim that they did not steal the Alto. 
+
 Therefore, neither of them could have actually stolen the Alto, which means Kartik stole the Alto.
 
 This also means that Kartik told the truth and that Varun stole the Zen. 
