@@ -1,8 +1,8 @@
 Puzzle :
 
 A dealer has 1000 coins and 10 bags. 
-He has to divide the coins over the ten bags so that he can make any number of coins simply by handing over a few bags. 
-How must divide his money into the ten bags?
+He has to divide the coins over the ten bags so that he can make any number of coins simply by handing over a 
+few bags. How must divide his money into the ten bags?
  
 Solution:
 
